@@ -1,0 +1,14 @@
+body {
+  background-image: linear-gradient(to bottom right, #323232, #AFAEAE); }
+
+.card {
+  background: #D3D1D1;
+  box-shadow: 10px 5px 25px black;
+  margin: 10px 0; }
+
+.jumbotron {
+  background-image: url("../img/Wargroove-1.jpg");
+  box-shadow: inset 10px 5px 25px black;
+  background-position-x: -70px;
+  background-position-y: -240px;
+  color: #fff; }

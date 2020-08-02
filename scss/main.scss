@@ -1,0 +1,33 @@
+@mixin space{
+    margin: 10px 0;
+}
+
+@mixin position {
+    background-position-x: -70px;
+    background-position-y: -240px;
+}
+
+@mixin color-gradient {
+    background-image: linear-gradient(to bottom right, $color-body, $color-tron )
+}
+
+$color-card: #D3D1D1;
+$color-body: #323232;
+$color-tron: #AFAEAE;
+
+body {
+    @include color-gradient;
+}
+
+.card {
+    background: $color-card;
+    box-shadow: 10px 5px 25px black;
+    @include space;
+}
+
+.jumbotron {
+    background-image: url("../img/Wargroove-1.jpg");
+    box-shadow: inset 10px 5px 25px black;
+    @include position;
+    color: #fff;
+}
